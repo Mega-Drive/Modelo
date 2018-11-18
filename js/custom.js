@@ -170,7 +170,6 @@ $(document).ready(function()
 			{
 				$('.home_slider_custom_dot').removeClass('active');
 				$('.home_slider_custom_dots li').eq(event.page.index).addClass('active');
-				console.log(event.page.index);
 			});
 
 			// add animate.css class(es) to the elements to be animated
